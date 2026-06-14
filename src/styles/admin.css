@@ -1,0 +1,99 @@
+/* Admin CSS - Colores originales Pin-Ups */
+
+.admin-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #dee2e6;
+  transition: all 0.2s ease;
+}
+
+.admin-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.admin-btn-primary {
+  background-color: #f85606;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.admin-btn-primary:hover {
+  background-color: #e04e05;
+}
+
+.admin-btn-secondary {
+  background-color: #6c757d;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.admin-btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.admin-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: #ffffff;
+  outline: none;
+  transition: all 0.2s ease;
+  color: #212529;
+}
+
+.admin-input:focus {
+  border-color: #f85606;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th {
+  text-align: left;
+  padding: 15px;
+  color: #212529;
+  background-color: #f8f9fa;
+  font-weight: 600;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.admin-table td {
+  padding: 15px;
+  color: #212529;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.admin-table tr:hover td {
+  background-color: #f8f9fa;
+}
+
+.admin-title {
+  color: #212529;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.admin-price {
+  color: #f85606;
+  font-weight: bold;
+}
+
+.admin-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #212529;
+  font-weight: 500;
+}
